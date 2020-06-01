@@ -1,0 +1,121 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Whats up"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?",
+                "Hello from the osDFS team!",
+                "Hi - osDFS Team"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!",
+                "Hope I was of help",
+                "Bye - osDFS Team"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old",
+                "how old are you",
+                "what is your age",
+                "age?"
+            ],
+            "responses": [
+                "I am a computer program!",
+                "I was born at osDFS Labs!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Os.",
+                "I'm Os!",
+                "I'm Os aka Os the Boss."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "osDFS",
+            "patterns": [
+                "what does osDFS do?",
+                "what is osDFS?",
+                "explain osDFS?",
+                "aim of osDFS?"
+            ],
+            "responses": [
+                "We are Open Source Digital Freedom Society. We are an off campus community that supports women & men that are interested in computer and information science and all tech things. We host tech talks, community events, and business leaders from all around the area on a weekly basis. Our goal is to create and inspire a strong community of women & men in technology fields. We aim to bring support, networking and mentoring to help women & men on your campus to find success in the classroom and in the office.",
+                "We A special interest group that supports women & men who study or are interested in Computer and Information Science."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "join",
+            "patterns": [
+                "How to join osDFS?",
+                "What to do?",
+                "How to proceed?",
+                "How to get started?",
+                "Where do i go?",
+                "where is the website",
+                "how to start?",
+                "how to begin?"
+            ],
+            "responses": [
+                "Join us here at - https://osdfs.netlify.app/",
+                "Be a part of osDFS - https://osdfs.netlify.app/",
+                "Become a member - https://osdfs.netlify.app/"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "projects",
+            "patterns": [
+                "what projects?",
+                "what ideas?",
+                "how to contribute?",
+                "how to make a pr?",
+                "where to code?",
+                "latest projects",
+                "project ideas",
+                "what can i work on?"
+            ],
+            "responses": [
+                "Pick a project that you like and start contributing - https://github.com/osDFS",
+                "Here are some of our latest projects - https://github.com/osDFS",
+                "Find our projects - https://github.com/osDFS"
+            ],
+            "context_set": ""
+        }
+    ]
+}
