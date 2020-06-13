@@ -5,6 +5,8 @@
 
 [![85e92ee9](https://user-images.githubusercontent.com/41269164/84294764-440e7200-ab67-11ea-8732-fa5973d2b09a.png )](https://scodein.tech/)
 
+Join our [Slack](https://join.slack.com/t/osdfs/shared_invite/zt-eecws9vb-zvmzBeSPgBZrE9RWVj43Sw) channel and then search for `#osdfs-chatbot`
+
 # Open Source Digital Freedom Society
 We are Open Source Digital Freedom Society. We are an off campus community that supports women and men that are interested in computer and information science and all tech things. We host tech talks, community events, and business leaders from all around the area on a weekly basis. Our goal is to create and inspire a strong community of women and men in technology fields. We aim to bring support, networking and mentoring to help women and men on your campus to find success in the classroom and in the office.
 
