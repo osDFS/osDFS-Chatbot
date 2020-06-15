@@ -1,9 +1,13 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://join.slack.com/t/osdfs/shared_invite/zt-eecws9vb-zvmzBeSPgBZrE9RWVj43Sw)
 
+#   OPEN SOURCE CONTEST STUDENT CODE IN
 
+Student Code-in is a global program that helps students grow with “OPEN SOURCE”. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of OPEN SOURCE Projects. In this,all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team.
 
 [![85e92ee9](https://user-images.githubusercontent.com/41269164/84294764-440e7200-ab67-11ea-8732-fa5973d2b09a.png )](https://scodein.tech/)
+
+
 
 Join our [Slack](https://join.slack.com/t/osdfs/shared_invite/zt-eecws9vb-zvmzBeSPgBZrE9RWVj43Sw) channel and then search for `#osdfs-chatbot`
 
