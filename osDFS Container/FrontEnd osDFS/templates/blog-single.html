@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+    
+    {% block head %}
+      {{ super() }}
+    {% endblock %}
+
+    {% block content %}
+    
+    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('/static/images/assets/bg1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate pb-5 text-center">
+            <h2 class="mb-3 bread">Blog Details</h2>
+            <p class="breadcrumbs"><span class="mr-2"><a href="/index">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog Single <i class="ion-ios-arrow-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   	<section class="ftco-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+            <h2 class="mb-3">Fix npm vulnerabilities with yarn</h2>
+            <p>Sometimes we get security alerts on GitHub because our project’s npm packages have security issues. With npm we can use npm audit fix to update our packages. But if you have used yarn, then yarn also has a command for auditing packages: yarn audit This command shows a list of vulnerable packages. But there is no yarn audit --fix ! So, as of now, it appears that there is no yarn audit --fix. So I am trying to figure out how to go about fixing my npm security bugs yarn audit errors. After trying yarn upgrade, it has fixed some of the errors in my npm packages, but there are still several remaining. I have tried a yarn add <pakage>@latest for the remaining high vulnerabilities, but it upgrades the version in our package.json, when I think the issues is coming from a dependency of a package that I am using. Here is an example of some of my remaining errors:</p>
+            <p>
+              <img src="/static/images/blog/npm.png" alt="" class="img-fluid">
+            </p>
+            <p>Here is an answer I found:
+
+    The solution to this problem in yarn is called selective version resolution which is basically defining resolutions for the transitive dependencies in the package.json.
+    The transitive dependencies are the dependencies of dependencies.
+
+   <p>{
+    "resolutions": { "**/**/lodash": "^4.17.12" }
+    }</p>p
+
+So here even if the lodash isn’t a direct dependency of your package, the dependent package in your package uses the version defined in the resolutions. Specific resolutions can also be provided. You can check the yarn documentation about selective dependency resolutions.</p>
+           
+
+
+        </div>
+      </div>
+    </section> <!-- .section -->
+    {% endblock %}
+   
+    {% block footer %}
+      {{ super()  }}
+    {% endblock %} 
+  </body>
+</html>

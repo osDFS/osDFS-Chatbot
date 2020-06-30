@@ -1,0 +1,45 @@
+# How the different communicate and build each others 
+# Flask applications
+# RASA chatbot
+# Nginx server
+# Action server for custom actions 
+
+version: '3'
+
+services:
+  flask_app:
+    container_name: "flask_app"
+    restart: always
+    build: ./FrontEnd osDFS 
+    ports:
+      - "8000:8000"
+    command: gunicorn -w 1 -b 0.0.0.0:8000 wsgi:app
+  
+  nginx:
+    container_name: "nginx"
+    restart: always
+    build: ./Nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - flask_app
+      - rasa 
+      - action_server
+
+
+  rasa:
+    container_name: "rasa_server"
+    build: 
+        context: ./osDFS Chatbot
+    ports: 
+      - "5005:5005"
+    
+  action_server:
+    container_name: "action_server"
+    build: 
+        context: ./actions
+    volumes:
+        - ./Actions:/app/Actions
+    ports:
+        - "5055:5055"  
+    
