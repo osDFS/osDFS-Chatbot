@@ -1,0 +1,9 @@
+Metrics/LineLength:
+    # This will disable the rule completely, regardless what other options you put
+    Enabled: True
+    # Change the default 80 chars limit value
+    Max: 200
+    # If you want the rule only apply to a specific folder/file
+    Include:
+      - 'osDFS RASA/'
+    # If you want the rule not to apply to a specific folder/file

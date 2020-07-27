@@ -1,0 +1,64 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- greet_bye
+- age
+- name
+- osDFS
+- join
+- projects
+- osDFS_full_name
+- contact_details
+responses:
+  utter_greet:
+  - text: Hello!
+  - text: Good to see you again
+  - text: Hi there how can I help
+  - text: Hello from the osDFS team
+  - text: Hi osDFS Team
+  utter_greet_bye:
+  - text: welcome bye 
+  - text: Have great day 
+  - text: Enjoy looking forward to contribute in osDFS, bye
+  utter_age:
+  - text: I am a computer program
+  - text: I was born at osDFS Lab
+  utter_name:
+  - text: You can call me OS.
+  - text: I'm OS!
+  - text: I'm OS aka Okay the Boss.
+  utter_osDFS:
+  - text: We are Open Source Digital Freedom Society. We are an off campus community
+      that supports women & men that are interested in computer and information science
+      and all tech things. We host tech talks, community events, and business leaders
+      from all around the area on a weekly basis. Our goal is to create and inspire
+      a strong community of women & men in technology fields. We aim to bring support,
+      networking and mentoring to help women & men on your campus to find success
+      in the classroom and in the office.
+  utter_join:
+  - text: Join us here at - https://osdfs.netlify.app/
+  - text: Be a part of osDFS - https://osdfs.netlify.app/
+  - text: Become a member - https://osdfs.netlify.app/
+  utter_projects:
+  - text: Pick a project that you like and start contributing - https://github.com/osDFS
+  - text: Here are some of our latest projects - https://github.com/osDFS
+  - text: Find our projects - https://github.com/osDFS
+  utter_osDFS_full_name:
+  - text: Open Source Digital Freedom Society
+  utter_contact_details:
+  - text: you can drop a mail at codegirls.opensource@gmail.com In case of any Query!
+  - text: here it is codegirls.opensource@gmail.com feel free to reach out to us!
+  - text: here codegirls.opensource@gmail.com
+actions:
+- utter_greet
+- utter_greet_bye
+- utter_age
+- utter_name
+- utter_osDFS
+- utter_join
+- utter_projects
+- utter_osDFS_full_name
+- utter_contact_details
+
